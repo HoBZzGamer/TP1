@@ -2,16 +2,31 @@ body{
     background: linear-gradient(rgb(59, 59, 92),rgb(165, 0, 0));
     font-family: 'Times New Roman', Times, serif;
 }
+
 table,tr,td,th{
     border: 2px solid black;
     border-collapse: collapse; 
-    margin: auto;}
+    margin: auto;
+}
+
 .titre{
     background-color: rgb(87, 34, 34);
     color: white;
     font-size: xx-large;
 }
 
+.distribution{
+    background-color: darkred;
+    color: white;
+}
+
+.background{
+    background-color: white;
+}
+
+.poster{
+    max-height: 900px;
+}
 
 .photoActeur{
     width: 80px;
@@ -22,44 +37,49 @@ table,tr,td,th{
     background-repeat: no-repeat;
     display: inline-block;
 }
-.background{
-    background-color: white;
+
+.nomActeur{
+    font-weight: bold;
+    font-size: large;
+    float: left;
 }
+
+/*#chrisEvans{
+background-image: url("images/Chris_Evans.png");
+}*/
+
+.nomPersonnage{
+    font-style: italic;
+    color: red;
+    font-size: medium;
+    float: inline-start;
+}
+.pskLokiEnFaitÀSaTête{
+    line-height: ;
+    font-style: italic;
+    color: red;
+    font-size: medium;
+    float: left;
+}
+.organiser{
+    float: inline-start;
+}
+
 .autresFilms{
     list-style: none;
     font-weight: bold;
     font-size: x-large;
 }
+
 .listeFilms{
     font-size: medium;
     font-weight: normal;
     list-style-type: disc;
-}
-.nomActeur{
-    list-style-type: none;
-    font-weight: bold;
-    font-size: large;
-    float: left;
-}
-.nomPersonnage{
-    list-style-type: none;
-    font-style: italic;
-    color: red;
-    font-size: small;
-    float: left;
-}
-.distribution{
-    background-color: darkred;
-    color: white;
-}
-.poster{
-    max-height: 900px;
 }
 
 .synopsis{
     font-weight: bold;
     font-size: large;
 }
-#chrisEvans{
-    background-image: url("Chris_Evans.png");
-}
+
+
