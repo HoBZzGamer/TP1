@@ -4,7 +4,7 @@ body{
 }
 
 table,tr,td,th{
-
+    border: 2px solid black;
     border-collapse: collapse; 
     margin: auto;
 }
@@ -18,7 +18,7 @@ table,tr,td,th{
 .distribution{
     background-color: darkred;
     color: white;
-    font-size: larger;
+    font-size: large;
 }
 
 .background{
@@ -26,7 +26,8 @@ table,tr,td,th{
 }
 
 .poster{
-    max-height: 900px;
+    max-height: 800px;
+
 }
 
 .photoActeur{
@@ -52,13 +53,13 @@ background-image: url("images/Chris_Evans.png"); j'ai pas compris comment l'appe
 .nomPersonnage{
     font-style: italic;
     color: red;
-    font-size: medium;
+    font-size: small;
     float: inline-start;
 }
 .pskLokiEnFaitÀSaTête{
     font-style: italic;
     color: red;
-    font-size: medium;
+    font-size: small;
     float: left;
 }
 .organiser{
