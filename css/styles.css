@@ -1,5 +1,6 @@
 body{
-    background: linear-gradient(red,white);
+    background: linear-gradient(rgb(59, 59, 92),rgb(165, 0, 0));
+    font-family: 'Times New Roman', Times, serif;
 }
 table,tr,td,th{
     border: 2px solid black;
@@ -7,8 +8,8 @@ table,tr,td,th{
     margin: auto;}
 .titre{
     background-color: rgb(87, 34, 34);
-    font-family: 'Times New Roman', Times, serif;
     color: white;
+    font-size: xx-large;
 }
 
 
@@ -27,8 +28,33 @@ table,tr,td,th{
 .autresFilms{
     list-style-type: none;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
 }
 .listeFilms{
     font-size: medium;
+    font-weight: normal;
+    list-style: none;
+}
+.nomActeur{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: large;
+}
+.nomPersonnage{
+    list-style-type: none;
+    font-style: italic;
+    color: red;
+    font-size: small;
+}
+.distribution{
+    background-color: darkred;
+    color: white;
+}
+.poster{
+    max-height: 900px;
+}
+
+.synopsis{
+    font-weight: bold;
+    font-size: large;
 }
